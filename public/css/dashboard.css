@@ -1,0 +1,30 @@
+.dashboard {
+    padding: 20px;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    padding: 20px;
+    background: var(--cards-backround-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    font-weight: normal;
+  }
+
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }

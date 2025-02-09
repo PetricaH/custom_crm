@@ -1,0 +1,13 @@
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .content-container {
+    border: 1px solid rgb(53, 53, 53);
+    background-color: var(--cards-backround-color);
+    border-radius: 20px;
+    padding: 15px;
+    min-height: 300px;
+  }
